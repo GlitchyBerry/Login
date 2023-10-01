@@ -15,7 +15,7 @@ function validate(){
   var password = document.getElementById("password").value;
   if ( username == "Test" && password == "123"){
     alert ("Login successfully");
-    window.location = "success.html"; // Redirecting to other page.
+    window.location.href = 'success.html';
     return false;
   }
 }
